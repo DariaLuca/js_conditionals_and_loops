@@ -60,9 +60,10 @@ switch (dayOfTheWeek) {
 
 
 // BUCLE - while
-const numbers = [2, 99, 34, 25, 1];
+const numbers = [2, 99, 34, 25, 1, 2, -23];
 
 let smallestNumber = Number.MAX_SAFE_INTEGER;
+console.log(smallestNumber);
 let currentIndex = 0;
 
 while (currentIndex < numbers.length) {
@@ -74,3 +75,12 @@ while (currentIndex < numbers.length) {
 }
 
 console.log('cel mai mic numar din lista este: ', smallestNumber);
+
+// BUCLE - do...while
+let n = 0; 
+let num = 0
+do {
+    console.log(num);
+    num++;
+} while (num < n);
+
